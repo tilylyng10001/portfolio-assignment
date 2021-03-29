@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid black; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 1000px;
+}
+    header{
+        background-color: #047bc4;
+        height: 110px;
+        padding: 10px;
+    }
+        .order_info{
+            margin-left: 670px;
+            color: white;
+        }
+            select{
+                background-color: #047bc4;
+                font-size: 11px;
+                vertical-align: right;
+                color: white;
+            }
+                ul li img{
+                    width: 15px;
+                    height: 15px;
+                    vertical-align: bottom;
+                    margin-left: 17px;
+                }
+                ul li{
+                    display: inline-block;
+                    font-size: 11px;
+                }
+
+            .logo{
+                width: 220px;
+                height: 80px;
+                margin: 0px 0 40px 20px;
+                display: inline-block;
+            }
+            .search_bar{
+                display: inline-block;
+                width: auto;
+                margin: 20px 0 0 80px;
+                vertical-align: top;
+            }
+                input{
+                    margin-left: -4px;
+                    width: 650px;
+                    height: 40px;
+                }
+                .search_bar img{
+                    width: 40px;
+                    height: 40px;
+                    margin-left: -4px;
+                    vertical-align: bottom;
+                    background-color: #ffc020;
+                    border-radius: 0 10px 10px 0;
+                    padding: 8px;
+                    
+                }
+                .search_bar select{
+                    height: 40px;
+                    font-size: 12px;
+                    text-align: center;
+                    border-radius: 10px 0 0 10px;
+                    background-color: #dfebed;
+                    color: black;
+                }
+            .sign_in{
+                width: 120px;
+                display: inline-block;
+                vertical-align: top;
+                margin: 25px 0 0 130px;
+                font-size: 13px;
+                color: white;
+                border-right: 1px solid black;
+            }
+                .sign_in p{
+                margin: 0 0 4px 26px;
+                }
+                .sign_in select{
+                    font-size: 15px;
+                }
+            #cart{
+                width: 28px;
+                height: 28px;
+                margin: 30px 0 10px 13px;
+                display: inline-block;
+                vertical-align: top;
+            }
+
+    nav{
+        width: 100%;
+        height: 40px;
+        background-color: white; 
+        font-weight: bold; 
+   
+    }
+        nav select{
+            background-color: white;
+            color: #1980be;
+            font-weight: bold;
+            margin-left: 30px;
+            width: 220px;
+            height: 40px;
+            border-right: 1px solid gray;
+            display: inline-block;
+            font-size: 17px;
+        }
+        nav ul{
+            display: inline-block;
+            margin-left: 20px;
+            
+        }
+            nav ul li{
+                margin-left: 20px;
+            }
+            nav a{
+                text-decoration: none;
+                color: #1980be;
+                
+            }
+        nav p{
+            display: inline-block;
+            font-size: 12px;
+            color: #448120;
+            margin-left: 620px;
+        }
+
+    .banner{
+        width: 100%;
+        height: 300px;
+        background-image: url("banner background.png");
+        padding: 30px;
+        font-weight: bold;
+        font-style: italic;
+    }
+        .banner_text{
+            margin-left: 400px;
+            line-height: 40px;
+            display: inline-block;
+            vertical-align: top;
+        }
+            .banner h1{
+                font-size: 60px;
+                color: #76c143;
+            }
+            .banner h2{
+                font-size: 30px;
+                color: #76c143;
+            }
+            .banner h3{
+                font-size: 28px;
+                color: #f47421;
+            }
+            .banner h4{
+                font-size: 20px;
+                color: #0880c6;
+            }
+            .banner p{
+                font-size: 12px;
+            }
+            .banner a{
+                text-decoration: none;
+                color: #0880c6;
+            }
+            .banner img{
+                width: 360px;
+                height: 260px;
+                display: inline-block;
+                margin-left: 60px;
+            }
+
+    .products{
+        width: 100%;
+        height: auto;
+        background-color: #f2f8fc;
+        padding: 40px;
+        
+    }
+        .products ul li{
+            width: 190px;
+            height: 290px;
+            margin-left: 10px;
+            background-color: white;
+            display: inline-block;
+            vertical-align: top;
+            padding: 15px;
+            line-height: 22px; 
+            font-weight: bold;
+        }
+
+        .products img{
+            width: 80px;
+            height: 120px;
+            margin-left: 40px;
+        }
+        .products h3{
+            font-size: 15px;
+            margin-top: 10px;
+            color: #0174b8;
+        }
+
+        .products .list_price{
+            font-size: 10px;
+            color: #0174b8;
+        }
+        .products .save{
+            font-size: 13px;
+            color: #e30503;
+        }
+        .products p{
+            font-size: 16px;
+            color: #444444;
+        }
+        .star{
+            width: 20px;
+            height: 20px;
+        }
+        
+    .categories{
+        width: 100%;
+        height: auto;
+        background-color: #f57421;
+        padding: 10px;
+        text-align: center;
+    }
+        .categories ul li{
+            width: 190px;
+            height: 200px;
+            margin-left: 10px;
+            background-color: white;
+            display: inline-block;
+            vertical-align: top;
+            padding: 15px;
+            line-height: 22px; 
+            font-weight: bold;
+            text-align: center;
+            color: #0174b8;
+            border-radius: 5px;
+        }
+        .categories img{
+            width: 80px;
+            height: 120px;
+            margin: 20px;
+        }
+        
